@@ -6,6 +6,7 @@
 nav {
     border: 1px solid black;
     min-width: 300px;
+    background-color: #ededed;
 }
 
 ul {
@@ -107,4 +108,41 @@ footer {
     line-height: 1.4em;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.objetivo {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: #0000006b 2px 3px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    min-width: 350px;
+    width: 450px;
+    height: 550px;
+    margin: 15px
+}
+
+.objetivo h2 {
+    padding: 40px;
+}
+
+.objetivo p {
+    padding: 0 40px;
+    text-indent: 35px;
+    line-height: 1.4em;
+    padding-top: 10px;
+
+    min-width: 280px;
+}
+
+.objetivo a {
+    text-decoration: none;
+    color: #4d3f54;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.objetivo a:hover {
+    color: #8a8a8a;
 }
